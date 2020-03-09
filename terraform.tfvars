@@ -6,3 +6,5 @@ max_retention_days = 10
 on_source_disk_delete = "KEEP_AUTO_SNAPSHOTS"
 storage_locations = ["us"]
 guest_flush = "false"
+disk_name = ["instance-3","instance-2"]
+zone = "us-east1-b"
