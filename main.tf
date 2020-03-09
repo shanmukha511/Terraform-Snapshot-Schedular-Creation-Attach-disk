@@ -1,5 +1,5 @@
-module "VMCreation-Adding-disk-to-SnapshotSchedular" {
-  source = "./VMCreation-Adding-disk-to-SnapshotSchedular"
+module "Snapshot-Shedular-Creation" {
+  source = "./Snapshot-Shedular-Creation"
 
   name                     = "${var.name}"
   region                   = "${var.region}"
