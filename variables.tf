@@ -6,3 +6,5 @@ variable max_retention_days {}
 variable on_source_disk_delete {}
 variable storage_locations {}
 variable guest_flush {}
+variable disk_name {}
+variable zone {}
