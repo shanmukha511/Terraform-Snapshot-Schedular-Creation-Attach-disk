@@ -12,8 +12,8 @@ module "Snapshot-Shedular-Creation" {
 
 }
 
-module "attach-disk-to-snapshot-schedular" {
-  source = "./attach-disk-to-snapshot-schedular"
+module "snapshot-schedular-creation-attach-disk" {
+  source = "./snapshot-schedular-creation-attach-disk"
 
   name                     = "${var.name}"
   region                   = "${var.region}"
