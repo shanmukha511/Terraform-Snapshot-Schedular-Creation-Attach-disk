@@ -9,7 +9,6 @@ module "Snapshot-Shedular-Creation" {
   on_source_disk_delete    = "${var.on_source_disk_delete}"
   storage_locations        = "${var.storage_locations}"
   guest_flush              = "${var.guest_flush}"
-
 }
 
 module "snapshot-schedular-creation-attach-disk" {
